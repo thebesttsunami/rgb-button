@@ -1,0 +1,31 @@
+<style>
+.rgb-button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  animation: rgb 3s infinite;
+}
+
+@keyframes rgb {
+  0% {
+    background-color: #ff0000; /* merah */
+  }
+  33% {
+    background-color: #00ff00; /* hijau */
+  }
+  66% {
+    background-color: #0000ff; /* biru */
+  }
+  100% {
+    background-color: #ff0000; /* merah */
+  }
+}
+
+.rgb-button:hover {
+  opacity: 0.8;
+}
+</style>
